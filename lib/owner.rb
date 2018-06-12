@@ -58,6 +58,11 @@ end
 end
 
 def sell_pets 
-  @pets.each do |species, 
+  @pets.each do |species, animals| 
+    animals.each do |animals| 
+      animals.mood = "nervous"
+    end 
+    animals.clear
+  end 
 
 end
