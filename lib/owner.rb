@@ -64,5 +64,6 @@ def sell_pets
     end 
     animal.clear
   end 
+end 
 
 end
